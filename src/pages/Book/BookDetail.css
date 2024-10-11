@@ -1,0 +1,108 @@
+.book-detail {
+    padding: 0;
+}
+
+.book-detail .breadcrumb {
+    padding-left: 30px;
+}
+
+.book-detail .col-2 img {
+    padding: 0;
+    width: 50%;
+    margin-left: 100px;
+}
+
+.row {
+    display: flex;
+}
+
+.book-detail .col-2 {
+    flex-basis: 50%;
+    min-width: 300px;
+}
+
+.book-detail .tags {
+    display: flex;
+    gap: .5em;
+    margin: .875em 0;
+}
+
+.book-detail .tags a {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.book-detail .col-2 h1 {
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+
+.col-2 .rating {
+    margin: 10px 0;
+}
+
+.col-2 .rating span.book-rating {
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.custom-rate .ant-rate-star-full svg {
+    color: var(--color-primary);
+}
+
+.custom-rate .ant-rate-star-zero svg {
+    color: var(--color-info-dark);
+}
+
+.home-content.reviews {
+    padding: 20px 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-content.reviews .ant-list-item {
+    width: 800px;
+}
+
+.custom-rate .ant-rate-star-full .ant-rate-star-second {
+    color: #db6776;
+}
+
+.custom-rate .ant-rate-star-full .ant-rate-star-first {
+    color: #db6776;
+}
+
+.custom-rate .ant-rate-star:hover .ant-rate-star-first,
+.custom-rate .ant-rate-star:hover .ant-rate-star-second {
+    color: #db6776;
+}
+
+.user-actions button {
+    margin-top: 10px;
+}
+
+.col-2.rating {
+    margin-top: 10px;
+}
+
+.user-actions button.ant-btn-default {
+    background-color: transparent;
+    height: 40px;
+    width: 160px;
+    border: 1px solid rgba(0, 0, 0, 0.56);
+    border-radius: 9px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.user-actions button.ant-btn-default:hover {
+    background-color: rgba(0, 0, 0, 0.05) !important;
+    color: var(--color-dark) !important;
+    border: 1px solid rgba(0, 0, 0, 0.56) !important;
+}
+
+.ant-dropdown-menu {
+    background-color: transparent !important;
+}
